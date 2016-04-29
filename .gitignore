@@ -1,0 +1,31 @@
+# Log files
+logs
+*.log
+
+# OSX
+.DS_Store
+
+# IDE specific
+**/.cache-main
+**/.classpath
+**/.idea/
+**/.project
+**/.settings
+.scala_dependencies
+.worksheet
+bin/
+
+# SBT specific
+**/project/boot/
+**/project/project/
+**/project/plugins/project/
+**/target/
+.cache
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+
+# Vim
+*.sw[op]
